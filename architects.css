@@ -30,6 +30,17 @@
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
+
+.button-primary{
+    color: #FFFFFF;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}    
 /* shared styles end  */
 
 /* header style  */
@@ -38,6 +49,13 @@
 /* navbar style  */
 .nav-bar{
     justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+    /* 1rem = 16px */
 }
 
 .nav-item{
@@ -51,6 +69,43 @@
 }
 
 .banner, .nav-bar{
-    max-width: 1440px;
+    max-width: 90%;
     margin: 0 auto;
+}
+
+/* banner styles  */
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-desc{
+    font-size: 1rem;
+}
+
+.banner-img{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.banner-img img{
+    width: 100%;
+}
+
+/* Mobile device media query   */
+
+@media screen and (max-width: 576px) {
+    .nav-bar, .nav-links{
+        flex-direction: column;
+        text-align: center;
+    }
 }
