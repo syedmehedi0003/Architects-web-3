@@ -143,6 +143,41 @@ main > section{
     color: #FF900E;
 }
 
+/* features you enjoy  */
+#feature-tittle{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.features{
+    gap: 10px;
+}
+.feture-img{
+    max-width: 680px;
+}
+
+.feature-container{
+    max-width: 580px;
+}
+
+/* .feture-img img{
+    width: 100%;
+} */
+
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}   
+
+.feature-card .feature-tittle{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+
+}
+
 /* some facts realted styles  */
 
 .fact-card{
@@ -234,6 +269,20 @@ main > section{
     .some-facts{
         text-align: center;
     }
+}
+
+footer{
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 8px;
+}
+
+footer p{
+    padding: 38px;
+    font-size:18px;
+    margin: 0px;
 }
 
 /* styles for medial device */
